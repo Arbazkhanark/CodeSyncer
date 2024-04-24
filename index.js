@@ -26,7 +26,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 // app.get("/",(req,res)=>res.send("Namaste Code"))
-app.use("api",userRouter);
+app.use("/api",userRouter);
 
 app.get("*",(req,res)=>{
     res.sendFile(path.join(__dirname,"dist","index.html"))
