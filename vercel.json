@@ -30,14 +30,16 @@
             "src":"/verify",
             "dest":"dist/index.html"
         },
-
+        {
+            "src":"/editor/:roomId",
+            "dest":"dist/index.html"
+        },
 
 
         {
             "src":"/*",
             "dest":"dist/index.html"
         },
-
 
 
         {
